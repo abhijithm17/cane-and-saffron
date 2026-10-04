@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Cane &amp; Saffron – North Indian classics, street-style momos and cocktails. Reserve a table.">
+<title>Cane &amp; Saffron – Restaurant &amp; Bar</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero"><div class="wrap" style="width:100%">
+ <nav><a class="logo" href="#">Cane &amp; Saffron</a><a class="btn" href="#book">Reserve a table</a></nav>
+</div>
+<div class="wrap hero-body" style="width:100%">
+ <h1>Dinner under the string lights.</h1>
+ <p>North Indian classics, street-style momos and cocktails worth lingering over. Open for lunch and late dinner.</p>
+ <div class="btns"><a class="btn" href="#book">Book a table</a><a class="btn ghost" href="#menu">See favourites</a></div>
+</div><svg class="seal" viewBox="0 0 200 200" aria-hidden="true"><defs><path id="ring" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs><g class="spin"><circle cx="100" cy="100" r="98" fill="#FFB11F"/><text font-family="Bricolage Grotesque,sans-serif" font-weight="800" font-size="18" fill="#14122B"><textPath href="#ring" textLength="445" lengthAdjust="spacing">OPEN DAILY ✦ LUNCH TO LATE DINNER ✦ </textPath></text></g><text x="100" y="118" text-anchor="middle" font-size="46">🍛</text></svg>
+</header>
+
+<div class="strip"><div class="wrap"><span>Open daily, 12 pm to 11:30 pm</span><span>Family-friendly</span><span>Live kitchen</span><span>Group bookings</span></div></div>
+
+<section id="menu"><div class="wrap">
+ <h2>Plates people order twice</h2>
+ <p class="sub">Made to share. Order a few for the middle of the table.</p>
+ <div class="dishes">
+  <article class="dish a"><span class="badge">Chef's pick</span><div class="ph" role="img" aria-label="Platter of steamed momos with two dips" style="background-image:var(--i-momo)"></div><div class="t"><h3>Momo platter</h3><p>Steamed and pan-fried, with a smoky red chutney and a chilli dip.</p></div></article>
+  <article class="dish b"><span class="badge">Feeds four</span><div class="ph" role="img" aria-label="Table spread of curries, naan, noodles and tandoori chicken" style="background-image:var(--i-feast);background-position:center 75%"></div><div class="t"><h3>The family feast</h3><p>Tandoori chicken, two curries, hakka noodles and fresh breads. Feeds four.</p></div></article>
+  <article class="dish c"><span class="badge">On the terrace</span><div class="ph" role="img" aria-label="Two cocktails on a candle-lit table" style="background-image:var(--i-night);background-position:35% 80%"></div><div class="t"><h3>Evening coolers</h3><p>Fresh-fruit sangria and a mango-orange spritz on the terrace.</p></div></article>
+ </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+ <div class="room">
+  <div class="ph" role="img" aria-label="Dining room with cane chairs, brick walls and hanging lamps" style="background-image:var(--i-room)"></div>
+  <div class="t">
+   <h2>A room that feels like a Sunday</h2>
+   <p>Cane chairs, warm brick, hanging lamps and booths in teal velvet. Come for lunch, stay for the second round.</p>
+   <ul><li>Seats up to 90 across two floors</li><li>Private corner booths for groups</li><li>Terrace tables after sunset</li></ul>
+  </div>
+ </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+ <figure class="quote">
+  <div><blockquote>We came for the momos and stayed three hours. Best table in the city.</blockquote><figcaption>Meera and friends, Saturday regulars</figcaption></div>
+  <div class="ph" role="img" aria-label="Momo platter"></div>
+ </figure>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+ <h2>Good food, good light</h2>
+ <div class="polas">
+  <figure class="pola"><div class="ph" role="img" aria-label="Dining room" style="background-image:var(--i-room)"></div><figcaption>The dining room</figcaption></figure>
+  <figure class="pola"><div class="ph" role="img" aria-label="Momo platter" style="background-image:var(--i-momo)"></div><figcaption>Momos, hot</figcaption></figure>
+  <figure class="pola"><div class="ph" role="img" aria-label="Terrace at night" style="background-image:var(--i-night)"></div><figcaption>Terrace nights</figcaption></figure>
+  <figure class="pola"><div class="ph" role="img" aria-label="Table spread" style="background-image:var(--i-feast)"></div><figcaption>Sunday spread</figcaption></figure>
+ </div>
+</div></section>
+
+<section id="book" style="padding-top:0"><div class="wrap">
+ <div class="book">
+  <div><h2>Hold your table</h2><p class="sub">Tell us when you're coming. We'll confirm by message within the hour.</p></div>
+  <form id="f">
+   <label>Your name<input name="n" required autocomplete="name"></label>
+   <label>Phone number<input name="p" type="tel" required autocomplete="tel"></label>
+   <label>Date and time<input name="d" type="datetime-local" required></label>
+   <label>Guests<select name="g"><option>2</option><option>3 to 4</option><option>5 to 8</option><option>9 or more</option></select></label>
+   <button class="btn" type="submit">Request my table</button>
+   <div class="ok" id="ok" role="status">Request sent. We'll message you to confirm your table.</div>
+  </form>
+ </div>
+</div></section>
+
+<div class="wrap"><footer><span>Cane &amp; Saffron, open daily</span><span>hello@caneandsaffron.example</span></footer></div>
+<script src="script.js" defer></script>
+</body>
+</html>
