@@ -12,7 +12,7 @@ A responsive landing page for a restaurant and bar, built with plain HTML, CSS a
 ## Run locally
 Open `index.html` in your browser.
 
-## Deploy with GitHub Pages
+## Deployed with GitHub Pages.
 1. Push this repo to GitHub.
 2. Go to **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, then pick `main` and `/ (root)`.
